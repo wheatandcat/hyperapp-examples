@@ -3,8 +3,9 @@ import { h, app } from "hyperapp";
 const state = {
   input: {
     name: "",
-    genderCode: 1
-  }
+    genderCode: "1"
+  },
+  users: []
 };
 
 const actions = {
@@ -23,7 +24,7 @@ const actions = {
   resetInput: () => state => ({
     input: {
       name: "",
-      genderCode: 1
+      genderCode: "1"
     }
   }),
 
@@ -123,7 +124,7 @@ const view = (state, actions) => (
         <tr key={index}>
           <td>{user.id}</td>
           <td>{user.name}</td>
-          <td>{user.genderCode == 1 ? "男性" : "女性"}</td>
+          <td>{user.genderCode == "1" ? "男性" : "女性"}</td>
           <td>
             <button onclick={() => actions.remove(user.id)}>削除</button>
           </td>

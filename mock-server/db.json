@@ -15,32 +15,17 @@
     {
       "id": 1,
       "name": "typicode",
-      "genderCode": 1
+      "genderCode": "1"
     },
     {
-      "id": 2,
-      "name": "Marak",
-      "genderCode": 1
+      "name": "abc",
+      "genderCode": "2",
+      "id": 2
     },
     {
-      "name": "sss",
+      "name": "cccc",
       "genderCode": "1",
-      "id": 5
-    },
-    {
-      "name": "ssswww",
-      "genderCode": "2",
-      "id": 6
-    },
-    {
-      "name": "qqqq",
-      "genderCode": 1,
-      "id": 7
-    },
-    {
-      "name": "aaaa",
-      "genderCode": "2",
-      "id": 8
+      "id": 3
     }
   ]
 }
