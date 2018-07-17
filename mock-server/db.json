@@ -1,0 +1,24 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "faker.js",
+      "author": "Marak"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "Marak"
+    }
+  ]
+}

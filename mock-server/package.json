@@ -1,0 +1,14 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "json-server --watch db.json"
+  },
+  "author": "wheatandcat",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.14.0"
+  }
+}
