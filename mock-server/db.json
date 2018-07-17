@@ -14,11 +14,33 @@
   "users": [
     {
       "id": 1,
-      "name": "typicode"
+      "name": "typicode",
+      "genderCode": 1
     },
     {
       "id": 2,
-      "name": "Marak"
+      "name": "Marak",
+      "genderCode": 1
+    },
+    {
+      "name": "sss",
+      "genderCode": "1",
+      "id": 5
+    },
+    {
+      "name": "ssswww",
+      "genderCode": "2",
+      "id": 6
+    },
+    {
+      "name": "qqqq",
+      "genderCode": 1,
+      "id": 7
+    },
+    {
+      "name": "aaaa",
+      "genderCode": "2",
+      "id": 8
     }
   ]
 }
