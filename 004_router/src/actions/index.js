@@ -28,6 +28,7 @@ export default {
       actions.resetInput();
     }
   },
+
   users: {
     remove: id => async (_, actions) => {
       const response = await fetch(`http://localhost:3000/users/${id}`, {
