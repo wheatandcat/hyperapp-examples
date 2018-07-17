@@ -1,18 +1,29 @@
 import { h, app } from "hyperapp";
 import { Link, Route, location } from "@hyperapp/router";
-import actionsBase from "./actions";
-import stateBase from "./state";
-import Users from "./components/pages/Users/Page";
-import User from "./components/pages/User/Page";
-import CreateUser from "./components/pages/CreateUser/Page";
+import Users, {
+  state as usersState,
+  actions as usersActions
+} from "./components/pages/Users";
+import User, {
+  state as userState,
+  actions as userActions
+} from "./components/pages/User";
+import CreateUser, {
+  state as createUserState,
+  actions as createUserActions
+} from "./components/pages/CreateUser";
 
 const state = {
-  ...stateBase,
+  users: usersState,
+  user: userState,
+  createUser: createUserState,
   location: location.state
 };
 
 const actions = {
-  ...actionsBase,
+  users: usersActions,
+  user: userActions,
+  createUser: createUserActions,
   location: location.actions
 };
 
